@@ -3,6 +3,7 @@
 std::unique_ptr< HUD >	HUD::sInstance;
 
 
+
 HUD::HUD() :
 	mScoreBoardOrigin(50.f, 60.f, 0.0f),
 	mBandwidthOrigin(50.f, 10.f, 0.0f),
