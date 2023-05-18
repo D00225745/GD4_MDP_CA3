@@ -73,13 +73,13 @@ namespace
 
 void Server::SetupWorld()
 {
-	//spawn some random mice
+	//spawn some random books
 	CreateRandomMice(10);
 
-	//spawn more random mice!
+	//spawn more random books!
 	CreateRandomMice(10);
 
-	//spawn EVEN more random mice!
+	//spawn EVEN more random books!
 	CreateRandomMice(10);
 }
 
