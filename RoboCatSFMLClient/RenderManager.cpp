@@ -6,6 +6,7 @@ RenderManager::RenderManager()
 {
 	view.reset(sf::FloatRect(0, 0, 1920, 1080)); //1280, 720)
 	WindowManager::sInstance->setView(view);
+	background.setTexture(*TextureManager::sInstance->GetTexture("floor"));
 }
 
 
@@ -67,6 +68,8 @@ void RenderManager::Render()
 	// Clear the back buffer
 	//
 	WindowManager::sInstance->clear(sf::Color(100, 149, 237, 255));
+
+	WindowManager::sInstance->draw(background);
 
 	RenderManager::sInstance->RenderComponents();
 

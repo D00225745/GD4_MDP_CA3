@@ -10,9 +10,12 @@ void TextureManager::StaticInit()
 
 TextureManager::TextureManager()
 {
+	//Initial "cat" "mouse" and "yarn" textures that are wizards, books, and fireballs in order
 	CacheTexture("cat", "../Assets/cat.png");
 	CacheTexture("mouse", "../Assets/mouse.png");
 	CacheTexture("yarn", "../Assets/yarn.png");
+	//Other textures added later
+	CacheTexture("floor", "../Assets/floor.png");
 }
 
 TexturePtr	TextureManager::GetTexture(const string& inTextureName)
