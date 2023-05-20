@@ -9,6 +9,14 @@ Mouse::Mouse()
 
 bool Mouse::HandleCollisionWithCat(RoboCat* inCat)
 {
+	/*
+	if (!picked)
+	{
+		
+
+		SoundManager::sInstance->PlaySound(SoundManager::SoundToPlay::STP_Pickup);
+	}
+	*/
 	(void)inCat;
 	return false;
 }

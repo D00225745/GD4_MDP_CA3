@@ -175,6 +175,7 @@
     <ClInclude Include="SocketAddress.hpp" />
     <ClInclude Include="SocketAddressFactory.hpp" />
     <ClInclude Include="SocketUtil.hpp" />
+    <ClInclude Include="SoundManager.hpp" />
     <ClInclude Include="StringUtils.hpp" />
     <ClInclude Include="TCPSocket.hpp" />
     <ClInclude Include="Timing.hpp" />

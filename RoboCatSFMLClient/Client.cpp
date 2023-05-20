@@ -11,6 +11,8 @@ bool Client::StaticInit()
 	TextureManager::StaticInit();
 	RenderManager::StaticInit();
 	
+	//attempt at loading the sound manager
+	//SoundManager::StaticInit();
 
 	HUD::StaticInit();
 
