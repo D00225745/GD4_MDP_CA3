@@ -3,7 +3,7 @@
 
 namespace
 {
-	const float kRespawnDelay = 5.f;
+	const float kRespawnDelay = 6.f; //used to be 3.f
 }
 
 ClientProxy::ClientProxy(const SocketAddress& inSocketAddress, const string& inName, int inPlayerId) : 
