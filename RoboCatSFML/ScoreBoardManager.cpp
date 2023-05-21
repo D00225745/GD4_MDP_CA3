@@ -10,6 +10,7 @@ void ScoreBoardManager::StaticInit()
 
 ScoreBoardManager::ScoreBoardManager()
 {
+	//maybe be able to add more player colors here
 	mDefaultColors.push_back(Colors::LightYellow);
 	mDefaultColors.push_back(Colors::LightBlue);
 	mDefaultColors.push_back(Colors::LightPink);
