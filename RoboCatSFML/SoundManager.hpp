@@ -1,4 +1,7 @@
-/*class SoundManager
+/*
+#include "RoboCatServerPCH.hpp"
+
+class SoundManager
 {
 public:
 
