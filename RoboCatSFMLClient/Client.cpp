@@ -1,5 +1,5 @@
 #include "RoboCatClientPCH.hpp"
-
+//Berk D00225745
 bool Client::StaticInit()
 {
 	// Create the Client pointer first because it initializes SDL

@@ -50,6 +50,7 @@ int RenderManager::GetComponentIndex(SpriteComponent* inComponent) const
 }
 
 
+//Berk D00225745
 //this part that renders the world is really a camera-
 //in a more detailed engine, we'd have a list of cameras, and then render manager would
 //render the cameras in order
